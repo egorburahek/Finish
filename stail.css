@@ -1,8 +1,12 @@
 body{
-    background-color: rgb(221, 167, 19);
+    background-color:rgb(221, 167, 19);
 }
 h1{
-    text-align: center;
-    margin-left: 200px;
-    margin-right: 200px;
+    text-align:center;
+    margin-left:200px;
+    margin-right:200px;
+}
+img{
+    height: 1800px;
+    width: 1800px;
 }
