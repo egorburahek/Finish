@@ -40,8 +40,9 @@ font-size: 69px;
 
     .product-image {
       width: 100%;
-      height: auto;
+      height: 290px;
       transition: 0.3s ease-in-out;
+      cursor: pointer;
     }
 
     .product-name {
