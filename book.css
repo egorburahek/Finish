@@ -1,0 +1,9 @@
+body{
+    background-color:rgb(221, 167, 19);
+    margin: 0px;
+      height: 100vh;
+     
+    }
+div{
+    display: flex;
+}

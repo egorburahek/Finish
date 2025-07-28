@@ -1,12 +1,30 @@
 body{
     background-color:rgb(221, 167, 19);
-}
+    margin: 0px;
+      height: 100vh;
+      display: flex;
+      justify-content: center; /* Центр по горизонтали */
+      align-items: center;    /* Центр по вертикали */
+      text-align: center;     /* Центр текста внутри блока */
+      font-family: sans-serif;
+    }
+
 h1{
     text-align:center;
     margin-left:200px;
     margin-right:200px;
 }
 img{
-    height: 1800px;
-    width: 1800px;
+    height: 200px;
+    width: 225px;
+      max-width: 100%;
+      height: auto;
+}
+a{
+    background-color: rgb(228, 152, 11);
+    border-radius: 9px;
+    font-size: 30px;
+    text-decoration: none;
+    border: 2px blue solid;
+  
 }
