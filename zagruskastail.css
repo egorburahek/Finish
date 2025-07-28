@@ -9,9 +9,9 @@
 body{
     background-color:rgb(221, 167, 19);
     margin: 0px;
-     
+     text-align: center;
     }
-    
+
 .row {
       display: flex;
       font-size: 35px;
@@ -53,4 +53,7 @@ font-size: 69px;
     .product-price {
       color: green;
       margin-top: 5px;
+    }
+    .books{
+      display: flex;
     }
