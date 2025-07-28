@@ -1,35 +1,43 @@
- function changeImage(img) {
-      img.src = "foto/conandoil.webp"; // путь к изображению при наведении
-    }
+function changeImage1() {
+  document
+    .querySelector(".image_1")
+    .setAttribute("src", "./foto/conandoil.webp");
+}
+function resetImage1() {
+  document
+    .querySelector(".image_1")
+    .setAttribute("src", "./foto/detektiv.webp");
+}
 
-    function resetImage(img) {
-      img.src = "foto/detektiv.webp"; // оригинальное изображение
-    }
+function changeImage2() {
+  document
+    .querySelector(".image_2")
+    .setAttribute("src", "./foto/levis.jpg");
+}
+function resetImage2() {
+  document
+    .querySelector(".image_2")
+    .setAttribute("src", "./foto/fentezi.jpg");
+}
 
-    
- function changeImage(img) {
-      img.src = "foto/levis.jpg"; // путь к изображению при наведении
-    }
+function changeImage3() {
+  document
+    .querySelector(".image_3")
+    .setAttribute("src", "./foto/shevchenko-taras-hryhorovych.jpg");
+}
+function resetImage3() {
+  document
+    .querySelector(".image_3")
+    .setAttribute("src", "./foto/ukrclasika.webp");
+}
 
-    function resetImage(img) {
-      img.src = "foto/fentezi.jpg"; // оригинальное изображение
-    }
-
-
-     function changeImage(img) {
-      img.src = "foto/shevchenko-taras-hryhorovych"; // путь к изображению при наведении
-    }
-
-    function resetImage(img) {
-      img.src = "foto/ukrclasika.webp"; // оригинальное изображение
-    }
-
-
-      function changeImage(img) {
-      img.src = "foto/serstiv.webr"; // путь к изображению при наведении
-    }
-
-    function resetImage(img) {
-      img.src = "foto/agata.webp"; // оригинальное изображение
-    }
-    
+function changeImage4() {
+  document
+    .querySelector(".image_4")
+    .setAttribute("src", "./foto/serstiv.webp");
+}
+function resetImage4() {
+  document
+    .querySelector(".image_4")
+    .setAttribute("src", "./foto/agata.webp");
+}
