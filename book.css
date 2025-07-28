@@ -4,6 +4,8 @@ body{
       height: 100vh;
      
     }
-div{
-    display: flex;
+.opis{
+    background-color: white;
+    border-radius: 7px;
+    border: 3px solid darkblue;
 }
