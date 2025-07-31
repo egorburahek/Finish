@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 .logo{
     width: 130px;
     height: 130px;
@@ -5,6 +6,9 @@
     border-radius: 10px;
       display: flex;
       margin: 20px;
+}
+body{
+    font-family: "Great Vibes", cursive;
 }
 .product-card {
       width: 200px;
@@ -30,4 +34,3 @@
       color: green;
       margin-top: 5px;
     }
-    

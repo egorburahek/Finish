@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 body{
     background-color:rgb(221, 167, 19);
     margin: 0px;
@@ -6,7 +7,7 @@ body{
       justify-content: center; /* Центр по горизонтали */
       align-items: center;    /* Центр по вертикали */
       text-align: center;     /* Центр текста внутри блока */
-      font-family: sans-serif;
+      font-family: "Great Vibes", cursive;
     }
 
 h1{
